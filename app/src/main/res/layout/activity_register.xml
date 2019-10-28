@@ -19,28 +19,24 @@
             android:id="@+id/H1"
             android:text="Register"></TextView>
 
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/H1"
+            android:layout_marginTop="21dp"
+            android:text="Username"></TextView>
 
+        <EditText
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/H1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"></EditText>
 
 
     </RelativeLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Username"
-            ></TextView>
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"></EditText>
-
-
-    </LinearLayout>
 
 
 </RelativeLayout>
