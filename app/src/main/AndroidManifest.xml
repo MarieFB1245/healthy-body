@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Registerinformation"></activity>
+        <activity android:name=".totalkcaluser"></activity>
+        <activity android:name=".Registerinformation" />
         <activity android:name=".Register" />
         <activity android:name=".MainActivity">
             <intent-filter>

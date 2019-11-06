@@ -220,6 +220,7 @@
 
 
     <Button
+        android:onClick="register"
         android:id="@+id/registerbutton"
         android:text="Register"
         android:layout_below="@id/layoutallergicfoodfood"
