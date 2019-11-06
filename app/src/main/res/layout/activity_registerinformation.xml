@@ -137,8 +137,95 @@
             android:text="gender"
             android:textSize="55px"></TextView>
 
-       
+        <EditText
+            android:id="@+id/inputgender"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Age"></EditText>
+
     </LinearLayout>
 
+    <LinearLayout
+        android:id="@+id/layoutlevelworkout"
+        android:layout_below="@+id/layoutgender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/levelworkout"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:text="levelworkout"
+            android:textSize="55px"></TextView>
+
+        <EditText
+            android:id="@+id/inputlevelworkout"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Age"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutcongenital_disease"
+        android:layout_below="@+id/layoutlevelworkout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/congenital_disease"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:text="congenital  disease"
+            android:textSize="55px"></TextView>
+
+        <EditText
+            android:id="@+id/inputcongenital_disease"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Age"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutallergicfoodfood"
+        android:layout_below="@+id/layoutcongenital_disease"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/allergicfoodfood"
+            android:layout_weight="1.5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:text="allergicfoodfood"
+            android:textSize="55px"></TextView>
+
+        <EditText
+            android:id="@+id/inputallergicfoodfood"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Age"></EditText>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/registerbutton"
+        android:text="Register"
+        android:layout_below="@id/layoutallergicfoodfood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
 
 </RelativeLayout>
