@@ -1,7 +1,9 @@
 package com.example.healthybody
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 
 class totalkcaluser : AppCompatActivity() {
 
@@ -9,4 +11,9 @@ class totalkcaluser : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_totalkcaluser)
     }
+    fun start (v:View){
+        val intent = Intent(this, totalkcaluser::class.java)
+        startActivity(intent)
+    }
+
 }
