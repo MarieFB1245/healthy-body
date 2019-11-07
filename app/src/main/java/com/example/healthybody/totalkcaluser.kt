@@ -12,7 +12,7 @@ class totalkcaluser : AppCompatActivity() {
         setContentView(R.layout.activity_totalkcaluser)
     }
     fun start (v:View){
-        val intent = Intent(this, totalkcaluser::class.java)
+        val intent = Intent(this, homeuser::class.java)
         startActivity(intent)
     }
 
